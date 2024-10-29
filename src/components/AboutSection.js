@@ -5,7 +5,7 @@ function AboutSection() {
   return (
     <div className="section-container1">
     <div className="wrapper">
-      <div className="hex-bg instance4"></div>
+      <div className="hex-bg-blue blue-instance4"></div>
 
       <div className="section-text-container1">
         <h3 className="section-title">

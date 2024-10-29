@@ -42,9 +42,9 @@ function Header() {
 
   return (
     <div>
-      <div className="hex-bg instance1"></div>
-      <div className="hex-bg instance2"></div>
-      <div className="hex-bg instance3"></div>
+      <div className="hex-bg-blue blue-instance1"></div>
+      <div className="hex-bg-blue blue-instance2"></div>
+      <div className="hex-bg.blue blue-instance3"></div>
 
       <div className="title-container">
         <div className="title-text-container">

@@ -5,7 +5,7 @@ function SkillsSection() {
   return (
     <div className="section-container2">
       <div className="wrapper">
-        <div className="hex-bg instance4"></div>
+        <div className="hex-bg-blue blue-instance4"></div>
 
         <div className="section-text-container2">
           <h3 className="section-title">

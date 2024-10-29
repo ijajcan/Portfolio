@@ -19,7 +19,7 @@ function ContactSection() {
         </a>
       </div>
 
-      <div className="hex-bg instance5"></div>
+      <div className="hex-bg-blue blue-instance5"></div>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 let Component;
 switch (window.location.pathname) {
@@ -25,4 +26,5 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<React.StrictMode>
   <Navigation />
   <Component />
+  <Footer />
 </React.StrictMode>);
