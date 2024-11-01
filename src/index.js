@@ -8,23 +8,34 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
 let Component;
+let pageClass = ""; 
+
 switch (window.location.pathname) {
   case "/":
-    Component = Home
+    Component = Home;
+    pageClass = "page-home"; 
     break;
   case "/about":
-    Component = About
+    Component = About;
+    pageClass = "page-about"; 
     break;
-    case "/contact":
-      Component = Contact
-      break;  case "/work":
-      Component = Work
-      break;
+  case "/contact":
+    Component = Contact;
+    pageClass = "page-contact"; 
+    break;
+  case "/work":
+    Component = Work;
+    pageClass = "page-work"; 
+    break;
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<React.StrictMode>
-  <Navigation />
-  <Component />
-  <Footer />
-</React.StrictMode>);
+root.render(
+  <React.StrictMode>
+    <div className={pageClass}>
+      <Navigation />
+      <Component />
+      <Footer />
+    </div>
+  </React.StrictMode>
+);

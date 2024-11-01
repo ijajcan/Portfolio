@@ -27,7 +27,7 @@ function AboutSection() {
             </p>
           </div>
 
-          <a className="link" href="#about">
+          <a className="link" href="/about">
           <object data={require("../images/arrow.svg").default}></object>
             About me
           </a>

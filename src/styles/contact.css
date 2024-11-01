@@ -3,7 +3,7 @@
   --background: #0f0f10;
   --primary: #060606;
   --secondary: #165d93;
-  --green: #13ab13;
+  --accent: #13ab13;
   --bigger: clamp(1.5rem, 3vw, 3rem);
   --big: clamp(1rem, 2.5vw, 2.5rem);
   --medium: clamp(1rem, 1.5vw, 1.5rem);
@@ -55,11 +55,12 @@
   }
 }
 
-.contact-container {
+.contact-form-container {
+  position: relative;
   overflow: hidden;
   display: grid;
   place-items: center;
-  min-height: calc(100vh);
+  min-height: 100vh;
   min-width: 100%;
   margin: 0;
 }
@@ -109,7 +110,7 @@
   min-height: 40vh;
   height: 90%;
   border-radius: 30px;
-  outline: 2px solid var(--green);
+  outline: 2px solid var(--accent);
   background-color: #0d0d0d;
   box-sizing: border-box;
 }
@@ -119,7 +120,7 @@
   padding: 20px 0;
   border-radius: 20px;
   border: none;
-  outline: 2px solid var(--green);
+  outline: 2px solid var(--accent);
   background-color: #0d0d0d;
   font-size: var(--medium);
   cursor: pointer;
@@ -139,7 +140,7 @@
   border-radius: 20%;
   scale: 0;
   z-index: -1;
-  background-color: var(--green);
+  background-color: var(--accent);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
@@ -150,7 +151,7 @@
 .submit-button:hover {
   color: #212121;
   scale: 1.1;
-  box-shadow: 0 0px 20px var(--green);
+  box-shadow: 0 0px 20px var(--accent);
 }
 
 .submit-button:active {
@@ -160,7 +161,7 @@
 
 
 .inline {
-  border-bottom: 2px solid var(--green);
+  border-bottom: 2px solid var(--accent);
   margin-bottom: min(5vh, 20px);
   display: flex;
 }
@@ -175,7 +176,7 @@ textarea {
   flex: 1 1 auto;
   background: none;
   border: none;
-  scrollbar-color: var(--green) var(--background);
+  scrollbar-color: var(--accent) var(--background);
   resize: none;
 }
 

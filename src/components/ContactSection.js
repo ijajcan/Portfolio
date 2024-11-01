@@ -14,7 +14,7 @@ function ContactSection() {
           together, please don't hesitate to get in touch.
         </p>
 
-        <a className="link" href="#contact">
+        <a className="link" href="/contact">
           <object data={require("../images/arrow.svg").default}></object>Get in touch
         </a>
       </div>
