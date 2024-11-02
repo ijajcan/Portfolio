@@ -106,7 +106,7 @@ nav {
   align-items: center;
 }
 
-ul {
+.navMenu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -116,7 +116,7 @@ ul {
   max-width: 300px;
 }
 
-li {
+.li-nav {
   font-size: var(--medium);
   font-weight: bold;
 }

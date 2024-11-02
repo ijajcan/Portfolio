@@ -1,0 +1,133 @@
+:root {
+  --gradient-pssst: linear-gradient(90deg, #386fa4 40%, #01161e);
+  --gradient-mycookbook: linear-gradient(90deg, #e0b51c 40%, #d5d5d5);
+  --gradient-gallery: linear-gradient(90deg, #cf7850 40%, #a9acac);
+}
+
+.project-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: clamp(200px, 81vw, 2000px);
+  margin: 0 auto clamp(20px, 10vw, 70em) auto;
+}
+
+.project-heading {
+  height: 85vh;
+  text-align: center;
+  font-size: calc(var(--bigger) * 1.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-clip: text;
+  color: transparent;
+}
+
+.pssst {
+  background-image: var(--gradient-pssst);
+}
+
+.mycookbook {
+  background-image: var(--gradient-mycookbook);
+}
+
+.gallery {
+  background-image: var(--gradient-gallery);
+}
+
+.arrow-down {
+  width: var(--bigger);
+  height: 15vh;
+  margin: auto;
+}
+
+.all-info {
+  width: clamp(200px, 81vw, 2000px);
+  margin: calc(var(--bigger) * 1.5) auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--bigger);
+}
+
+.sub-heading {
+  font-size: var(--medium);
+  width: clamp(150px, 100%, 800px);
+}
+
+.list-heading {
+  font-size: var(--medium);
+  margin-bottom: 20px;
+}
+
+.list-data {
+  font-size: var(--small);
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: clamp(150px, 40vw, 500px);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.list-and-image-container {
+  display: flex;
+  gap: 30px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media (width < 570px) {
+  .list-and-image-container {
+    flex-direction: column;
+  }
+}
+
+/* GALLERY */
+.gallery-image {
+  width: clamp(200px, 100%, 1000px);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.vertical {
+  max-width: 300px;
+}
+
+/* MYCOOKBOOK */
+
+.all-project-text-container {
+  columns: min(80vw, 400px);
+  gap: var(--bigger);
+  width: clamp(200px, 81vw, 1500px);
+  margin-top: calc(var(--bigger) * 2);
+}
+
+.project-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--small);
+  margin-bottom: var(--bigger);
+  background-color: var(--primary);
+  padding: 20px;
+  border-radius: 15px;
+  break-inside: avoid;
+}
+
+.project-text {
+  width: 100%;
+  font-size: var(--medium);
+}
+
+.mycookbook-image {
+  max-width: 100%;
+  border-radius: 15px;
+  background-color: var(--primary);
+  margin-bottom: var(--bigger);
+}

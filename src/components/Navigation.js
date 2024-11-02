@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles/styles.css";
 
 function Navigation() {
   const [menuVisibility, setMenuVisibility] = useState(false)
@@ -10,13 +9,13 @@ function Navigation() {
         ☰
       </button>
       <ul className={`navMenu ${menuVisibility ? "visible" : "not-visible"}`} >
-        <li>
+        <li className="li-nav">
           <a href="/about">About</a>
         </li>
-        <li>
+        <li className="li-nav">
           <a href="/work">Work</a>
         </li>
-        <li>
+        <li className="li-nav">
           <a href="/contact">Contact</a>
         </li>
       </ul>
