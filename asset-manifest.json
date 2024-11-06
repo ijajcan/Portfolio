@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fe69174d.css",
+    "main.js": "/portfolio/static/js/main.a1743d21.js",
+    "static/media/profile.png": "/portfolio/static/media/profile.f8d983999200b779a828.png",
+    "static/media/mycookbook_profile.png": "/portfolio/static/media/mycookbook_profile.a6db97a7a66888bdd018.png",
+    "static/media/mycookbook_home.png": "/portfolio/static/media/mycookbook_home.a5a75be6cdb1634af785.png",
+    "static/media/profile1.png": "/portfolio/static/media/profile1.915f3aec9ac0416649b2.png",
+    "static/media/gallery3.png": "/portfolio/static/media/gallery3.444b2352f41a575bf18a.png",
+    "static/media/gallery2.png": "/portfolio/static/media/gallery2.b49b0825ebf5a2970fe1.png",
+    "static/media/gallery1.png": "/portfolio/static/media/gallery1.827c0d51dd6735bee3df.png",
+    "static/media/mycookbook.png": "/portfolio/static/media/mycookbook.8336d79bd24b57f0ff11.png",
+    "static/media/mycookbook_icon.png": "/portfolio/static/media/mycookbook_icon.450e0956b2b9aaad4f49.png",
+    "static/media/pssst_icon.png": "/portfolio/static/media/pssst_icon.585e5ae7b259fbe1ea50.png",
+    "static/media/gallery4.png": "/portfolio/static/media/gallery4.3e371ee10464b47caa35.png",
+    "static/media/pssst_homepage.png": "/portfolio/static/media/pssst_homepage.298c7c17a1580417530a.png",
+    "static/media/react.png": "/portfolio/static/media/react.3b8c199063dace8825fa.png",
+    "static/media/css.png": "/portfolio/static/media/css.3219cdae8c005b86f64b.png",
+    "static/media/java.png": "/portfolio/static/media/java.342ec0269dc116f43a25.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.863627d7c465921ecce7.png",
+    "static/media/hex_bg_blue.svg": "/portfolio/static/media/hex_bg_blue.7c38c537c6430e36323e.svg",
+    "static/media/hex_bg_green.svg": "/portfolio/static/media/hex_bg_green.ffa43eba5064f7e60ba7.svg",
+    "static/media/hex_bg_yellow.svg": "/portfolio/static/media/hex_bg_yellow.7200fa707c4533e16707.svg",
+    "static/media/git.png": "/portfolio/static/media/git.b23d98ba951ad99f6f8b.png",
+    "static/media/arrow.svg": "/portfolio/static/media/arrow.2bdc4f9fe620db10bbe9b5cc62209060.svg",
+    "static/media/plane.svg": "/portfolio/static/media/plane.8b642954c2b6a491a8f8a3489ca176a8.svg",
+    "static/media/arrow_down.svg": "/portfolio/static/media/arrow_down.296806ff32bd9413a003d8ed1acb85eb.svg",
+    "index.html": "/portfolio/index.html",
+    "main.fe69174d.css.map": "/portfolio/static/css/main.fe69174d.css.map",
+    "main.a1743d21.js.map": "/portfolio/static/js/main.a1743d21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe69174d.css",
+    "static/js/main.a1743d21.js"
+  ]
+}
