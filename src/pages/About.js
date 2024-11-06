@@ -7,7 +7,7 @@ export default function About() {
       <div className="image-container">
 
       <div className="hex-bg-yellow"></div>
-        <img src={require("../images/mycookbook_home.png")} className="profile-image"></img>
+        <img src={require("../images/profile1.png")} className="profile-image"></img>
       </div>
       <div className="about-me-text">
         <h1 className="heading">

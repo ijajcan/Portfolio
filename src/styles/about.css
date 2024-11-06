@@ -51,8 +51,8 @@
 .profile-image {
     object-fit: cover;
     position: absolute;
-    height: clamp(200px, 30vw, 600px);
-    width: clamp(200px, 20vw, 600px);
+    height: clamp(200px, 50vw, 700px);
+    width: clamp(200px, 40vw, 700px);
     left: 0;
     bottom: 0;
 }
