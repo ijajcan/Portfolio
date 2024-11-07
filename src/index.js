@@ -11,13 +11,11 @@ import MyCookBook from "./pages/MyCookBook";
 import Pssst from "./pages/Pssst";
 import Gallery from "./pages/Gallery";
 
-// Component to handle dynamic page classes
 function App() {
   const location = useLocation();
   const [pageClass, setPageClass] = useState("");
 
   useEffect(() => {
-    // Set page class based on current pathname
     switch (location.pathname) {
       case "/":
         setPageClass("page-home");
@@ -37,7 +35,9 @@ function App() {
       default:
         setPageClass("");
     }
-  }, [location.pathname]); // Re-run effect when pathname changes
+
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return (
     <div className={pageClass}>

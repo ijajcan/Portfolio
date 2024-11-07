@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/styles.css"
+import { Link } from "react-router-dom";
 
 function AboutSection() {
   return (
@@ -27,10 +28,10 @@ function AboutSection() {
             </p>
           </div>
 
-          <a className="link" href="/about">
+          <Link className="link" to="/about">
           <object data={require("../images/arrow.svg").default}></object>
             About me
-          </a>
+          </Link>
 
           <div className="section-info">
             <div>

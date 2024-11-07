@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/styles.css"
+import { Link } from "react-router-dom";
 
 function ContactSection() {
   return (
@@ -13,10 +14,9 @@ function ContactSection() {
           you. If you have any questions or would like to discuss a project
           together, please don't hesitate to get in touch.
         </p>
-
-        <a className="link" href="/contact">
+        <Link className="link" to="/contact">
           <object data={require("../images/arrow.svg").default}></object>Get in touch
-        </a>
+        </Link>
       </div>
 
       <div className="hex-bg-blue blue-instance5"></div>
