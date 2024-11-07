@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 export default function ProjectContainer(props) {
     
   return (
-    <a className="project-container" href={props.href}>
+    <Link className="project-container" to={props.href}>
       <div>
         <img
           className="project-image"
@@ -10,6 +12,6 @@ export default function ProjectContainer(props) {
         />
       </div>
       <p>{props.projectName}</p>
-    </a>
+    </Link>
   );
 }
